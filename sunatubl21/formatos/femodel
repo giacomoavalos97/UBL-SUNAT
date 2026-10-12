@@ -1,0 +1,31 @@
+{                                                                                  
+                                                                      FACTURA ELECTRONICA
+                                                                       [LCSERIEYNUM,1,15,] 
+____________________________________________________________________________________________________________
+
+      FECHA DE EMISION    :  [LCFECHAEMISION,1,10,]                 
+      Señor(es)           :  [LCRAZONEMPRESACLIENTE,1,120,]
+      RUC                 :  [LCRUCCLIENTE,1,11,]
+      DIRECCION           :  [LCDIRCLIENTE,1,120,]
+      MONEDA              :  [LCMONEDA,1,2,]
+____________________________________________________________________________________________________________
+ CANTIDAD UNIDAD CODIGO               DESCRIPCION                        VALOR UNITARIO    TOTAL  
+____________________________________________________________________________________________________________
+}
+/     [CANTIDAD,1,3,3,]   [UNIDAD,1,3,]    [PRODUCTO,1,8,] [DESCRIPCIO,1,46,] [PRECIO,1,7,]      [TOTAL,1,7,]
+                             [DESCRIPCIO,47,100,]\
+$  
+                                                                      SUBTOTAL VENTAS  [LCSUBTOTALDOC,1,11,] 
+                                                                      IGV              [LCTOTALIGV,1,11,]                      
+                                                                       IMPORTE TOTAL   [LCTOTALDOC,1,11,]?
+<FORMAPAGO:[LCFPAGO,1,10,]  Monto:[LCMONTO,1,10,] Fecha:[LCFECHA,1,10,] Cuota:[LCCUOTA,1,2,]>
+^ 
+   SON : [@LCTOTOTALDOC,1,90,]
+____________________________________________________________________________________________________________
+                        ESTA ES UNA REPRESENTACION IMPRESA DE LA FACTURA ELECTRONICA ,
+                              GENERADA POR EL SISTEMA DEL CONTRIBUYENTE.
+                              PUEDE VERIFICARLA UTILIZANDO SU CLAVE SOL.
+____________________________________________________________________________________________________________
+
+
+ 

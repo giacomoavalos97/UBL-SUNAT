@@ -1,0 +1,62 @@
+{   	    [lcRazonEmpresaFirma,1,50,] 
+    	  [lcDirEmpresaEmisor,1,50,]
+          [lcDistritoEmisor,1,12,] - [lcCiudadEmisor,1,10,]
+          RUC:[lcRucFirmaDigital,1,11,]                                             
+                                                                             GUIA DE REMISION ELECTRONICA
+                                                                             [LCSERIE,1,4,]-[LCNUMERO,1,11,]
+ -----------------------------------------------------------------------------------------------------
+  DATOS DEL TRANSALADO
+  -----------------------------------------------------------------------------------------------------
+  FECHA DE EMISION            : [FECHA,1,20,]                        DOC CRUCE:[lcserieynum1,1,18,]  
+  FECHA DE INICIO TANSLADO    : [FECHA,1,20,]   
+  MOTIVO DE TRANSLADO         : [LCOBSERVA,1,100,]
+  MODALIDAD DE TRANSPORTE     : TRANSPORTE PRIVADO
+  PESO BRUTO TOTAL DE LA GUIA 
+                        (KGM) : [PESO,1,10,]  
+  -----------------------------------------------------------------------------------------------------
+  DATOS DEL DESTINATARIO
+  -----------------------------------------------------------------------------------------------------
+  RAZON SOCIAL                : [LCRAZONEMPRESACLIENTE,1,100,]
+  RUC                         : [LCRUCCLIENTE,1,11,]
+  -----------------------------------------------------------------------------------------------------
+  DATOS DEL PUNTO DE LLEGADA
+  -----------------------------------------------------------------------------------------------------
+  DIRECCION LLEGADA           : UBIGEO-[destino,1,100,] 
+  DIRECCION PARTIDA           : UBIGEO-[lcDirEmpresaEmisor,1,100,]
+  -----------------------------------------------------------------------------------------------------
+  DATOS DEL TRANSPORTE
+  -----------------------------------------------------------------------------------------------------
+  DATOS DEL VEHICULO          
+            NRO.PLACA         : [placa_vehiculo,1,10,]
+  DATOS DEL CONDUCTOR
+            DNI               : [nro_doc_chofer,1,20,]
+            NOMBRE            : [nombres_chofer,1,40,]
+            LICENCIA          : [lic_conducir_chofer,1,20,]
+  -----------------------------------------------------------------------------------------------------
+  DATOS DE LOS BIENES
+  -----------------------------------------------------------------------------------------------------
+   CODIGO BIEN    DESCRIPCION                                   UNIDAD MEDIDA          CANTIDAD 
+}
+/     [producto,1,10,]   [DESCRIPCIO,1,40,]         [UNIDAD1,1,7,]               [CANTIDAD,1,7,3,]\
+$
+                                                                          
+                                                                          
+               ^Nro De Items :[lcTotDocumentos,1,10,]
+               
+  -----------------------------------------------------------------------------------------------------
+        EstaEsUnaRepresentacionImpresaDeLaFacturaElectronica-GeneradaPorElSistemaDelContribuyente
+                                   PUEDE VERIFICARLA UTILIZANDO SU CLAVE SOL.
+  -----------------------------------------------------------------------------------------------------
+ ?
+
+
+
+
+
+
+
+ [CODIGOQR>HASH,1,30,]
+ 
+ 
+ 
+

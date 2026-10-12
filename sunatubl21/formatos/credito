@@ -1,0 +1,45 @@
+{
+                                               
+                                                                                                  NOTA DE CREDITO
+                                                                                                   RUC. 20554187995
+                                                                                                     [LCSERIE,1,4,]-[LCNUMERO,1,11,]
+
+
+            _______________________________________________________________________________________________________________________
+
+             FECHA DE EMISION    : [FECHA,1,10,]                                DOC CRUCE:[lcserieynum1,1,18,]                       
+             Cliente             : [LCRAZONEMPRESACLIENTE,1,100,]
+             RUC                 : [LCRUCCLIENTE,1,11,]
+             DIRECCION           : [lcDirCliente,1,100,]
+             CODIGO HASH         : [hash,1,100,]
+            ______________________________________________________________________________________________________________________
+
+            CANT UNID  CODIGO              DESCRIPCION                                                                 TOTAL 
+            ______________________________________________________________________________________________________________________
+
+}
+/             [CANTIDAD,1,3,3,] [UNIDAD,1,4,][codigoproductosunat,1,10,] [DESCRIPCIO,1,80,]       [TOTAL,1,7,0]\
+$  
+
+                                                                                       SUBTOTAL              :         [lcSubTotalDoc,1,7,0,]
+                                                                                       IGV 18%               :          [lctotaligv,1,7,0,]
+                                                                                       IMPORTE TOTAL         :         [lctotaldoc,1,7,0,] 
+
+             Importe en letras Total [lcimportetotal_letras,1,80,]
+          _____________________________________________________________________________________________________________________
+
+                        ESTA ES UNA REPRESENTACION IMPRESA DE LA NOTA DE CREDITO, GENERADA POR SEE DEL CONTRIBUYENTE.
+          _____________________________________________________________________________________________________________________
+
+             
+          ?
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
